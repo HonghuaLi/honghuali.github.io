@@ -56,6 +56,40 @@ p{
 }
 
 /*---------------------------Section 2-----------------------------------------------------------*/
+/*---------------------------Top Section---------------------------------------*/
+
+.task-top{
+	width: 100%;
+	height: 300px;
+
+}
+
+.task-top h2{
+	font-size: 2.5em;
+	float: left;
+	padding: 5px;
+	border-left:20px solid #333333 ;
+
+}
+
+.task-top p{
+	border: none !important;
+}
+
+.task-top img{
+	float: right;
+	width: 40%;
+	margin-right: 50px;
+	border-radius: 30px;
+}
+
+.task-top .desc{
+	float: left;
+	width: 55%;
+	font-size: 2em;
+}
+
+
 
 .task{
 	background-color: #99ccff;
@@ -65,36 +99,22 @@ p{
 	padding: 1%;
 	border-radius: 50px;
 	display: inline-block;
-	font-size: 24px;
 }
 
-.task h2{
-	font-size: 36px;
+.task-col{
+	width: 32%;
+	border:5px solid #888;
 	float: left;
-	padding: 5px;
-	border-left:20px solid #333333 ;
+	border-radius: 10px;
+	margin: 0.2%;
 }
 
-.task img{
+.task-col img{
 	width: 100%;
-	border-radius: 30px;
 }
 
-.task-left{
-	width: 49%;
-	float: left;
-	clear: left;
-}
 
-.task-right{
-	width: 49%;
-	float: right;
-	clear: right;
-}
 
-.init img{
-	border:2px solid #000;
-}
 
 /*---------------------------Button---------------------------------------*/
 .button-p{
