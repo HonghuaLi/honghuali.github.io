@@ -1,140 +1,257 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-  <head>
-    <title>Honghua(Howard) Li| Personal</title>
 
-    <!-- Mobile viewport optimized: h5bp.com/viewport -->
-    <meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<head>
+  <title>Honghua Li's Homepage</title>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+  <link rel="icon" href="images/icons/favicon.ico">
+</head>
 
-	<!-- My web icon and icon font -->
-    <link rel="icon" href="images/icons/favicon.ico" type="image/x-icon">
-    <link rel="shortcut icon" href="images/icons/favicon.ico" type="image/x-icon">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<body>
+  <div id="main">
 
-    <!-- CSS style base on the screen size(large, medium, small) -->
-    <link rel="stylesheet" type="text/css" href="css/styles.css" />
-    <link rel="stylesheet" type="text/css" media="only screen and (min-width:501px)" href="css/layout_large.css" />
-    <link rel="stylesheet" type="text/css" media="only screen and (min-width:50px) and (max-width:500px)"  href="css/layout_small.css">
+    <div id="header">
+      <!-- insert the header content here -->
+      <div id="logo">
 
-	<!-- JaveScript -->
-    <script type="text/javascript" src="style.js"></script>
-  </head>
-  <body>
-    
-    <!-- Left Side Section -->
-    <div class="left-side-screen">
-      <img class="profile-photo" src="images/honghua_square.jpg" alt="">
-      <h1 class="name-title">Honghua Li</h1>
-      
-      <!-- Navigation Bar  -->
-      <nav>
-        <ul class="nav">
-          <li><div class="current"><a href="index.html"><i class="fa fa-home fa-fw fa-lg"></i>Home</a></div></li>
-          <li><a href="pub.html"><i class="fa fa-pencil-square-o fa-fw fa-lg"></i>Publications</a></li>
-          <li><a href="personal.html"><i class="fa fa-user fa-fw fa-lg"></i>Personal</a></li>
-          <li><a href="cv.pdf"><i class="fa fa-cloud-download fa-fw fa-lg"></i>Download CV</a></li>
-        </ul>
-      </nav>
+      <img src="images/portrait.jpg">
 
-      <!-- social media: Linkedin, Researchgate, gitlab  -->
-      <ul class="social-media">
-        <li>
-          <a href="https://ca.linkedin.com/in/honghua-li-59674132">
-            <img class="gitlab-icon off" src="images/icons/linkedin-black.png" onmouseover="this.src='images/icons/linkedin-color.png'" onmouseout="this.src='images/icons/linkedin-black.png'" /> 
-          </a>
-        </li>
-        <li>
-          <a href="https://www.researchgate.net/profile/Li_Honghua">
-            <img class="gitlab-icon off" src="images/icons/rg-black.png" onmouseover="this.src='images/icons/rg-color.png'" onmouseout="this.src='images/icons/rg-black.png'" /> 
-          </a>
-        </li>
-        <li>
-          <a href="https://gitlab.com/u/Howardhhli">
-            <img class="gitlab-icon off" src="images/icons/gitlab-black.png" onmouseover="this.src='images/icons/gitlab-color.png'" onmouseout="this.src='images/icons/gitlab-black.png'" /> 
-          </a>
-        </li>      
-      </ul>
-
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1>
+              <span class="logo_colour">Honghua</span> Li
+              &nbsp;&nbsp;李<span class="logo_colour">宏华</span>
+          </h1><br>
+          <h2>
+              Visiting Researcher at 
+              <a href="http://irc.cs.sdu.edu.cn/" target="blank">
+              Interdisciplinary Research Center</a>, SDU
+          </h2><br>
+          <h2>Email: howard (dot) hhli [at] gmail.com</h2>
+        </div>
+      </div>
     </div>
 
 
-  <!-- Right Side Main Section -->
-  <div class="main">
-    <section class="about-me">
-      <div class="container">
-        <h1>Biography</h1>
-        <div class="interest">
-          <h2>Research interest</h2>
-          <ul >
-            <li>Computer graphics</li>
-            <li>Style analysis</li>
-            <li>Geometry processing</li>
-            <li>Semantic shape analysis</li>
-            <li>3D content creation</li>
-          </ul>
+    <div id="site_content">
+        <!-- insert the page content here -->
+        <h1>Short Bio</h1>
+        <p>I am currently a visiting researcher working at the <a href="http://irc.cs.sdu.edu.cn/" target="blank">Interdisciplinary Research Center, SDU</a>.
+        I received my PhD in Computing Science from Simon Fraser University under the guidance of <a href="http://www.cs.sfu.ca/~haoz/">Prof. Hao (Richard) Zhang</a> and <a href="http://www.cs.tau.ac.il/~dcor/">Prof. Daniel Cohen-Or</a> (co-supervising). My research focuses on geometry processing, sematic shape analysis, and shape modeling.
+        <br> 
+        A full Curriculum Vitae is available <a href="cv.pdf">here (PDF)</a>. 
+        </p>
+
+
+        <h1>Publications</h1>
+
+        <div class="pub">
+          <img src="images/pub/mobility.png"/>
+          <div class="pub-text">
+            <h3>Mobility Fitting Using RANSAC 4D</h3> 
+            <p>
+              Hao Li, Guowei Wan,
+              <b>Honghua Li</b>,
+              Andrei Sharf, Kai Xu, and Baoquan Chen
+              <br>
+              <i>Computer Graphics Forum</i> (SGP 2016), 35(5). 
+              <br>
+              <a href="">[PDF]</a>
+            </p>
+          </div>
         </div>
-        <div class="biography-text"> 
-          <p>
-			Welcome to my website.
-		  </p>
+
+        <div class="pub">
+          <img src="images/pub/pr16.png"/>
+          <div class="pub-text">
+            <h3>An Example-Based Approach to 3D Man-made Object Reconstruction from Line Drawings</h3> 
+            <p>
+              Changqing Zou, Tianfan Xue, Xiaojiang Peng,
+              <b>Honghua Li</b>,
+              B. Zhang, Ping Tan, and J. Liu
+              <br>
+              <i>Pattern Recongnition</i> 2016, (to appear). 
+              <br>
+              <a href="">[PDF]</a>
+            </p>
+          </div>
         </div>
-      </div>
-    </section>
 
-    <section class="recent-works">
-      <div class="container">
-      <h1>Recent Works</h1>
-        <ul>
-          <li>
-            <div class="photo">
-              <a href="#">
-                <img src="images/1.jpg" border="0" width="150px" alt=""/>
-                <span><div class="word">Foldabilizing Furniture</div></span>
-              </a>
-            </div>
-          </li>
-          <li>
-            <div class="photo">
-              <a href="#">
-                <img src="images/2.jpg" border="0" width="150px"alt=""/>
-                <span><div class="word">Shape Compaction</div></span>
-              </a>
-            </div>
-          </li>
-          <li>
-            <div class="photo">
-              <a href="#">
-                <img src="images/3.jpg" border="0" width="150px" alt=""/>
-                <span><div class="word">Approximate Pyramidal Shape Decomposition</div></span>
-              </a>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </section>
 
-    <!-- _______________Contact Section_______________________
-    
-    <section class="contact-section">
-      <div class="container">
-        <h1>Contact</h1>
-        <ul class="contact-infor">
-          <li><img src="images/icons/email-2.png" width="50px"/><span>howard (period) hhli [at] gmail DoT com</span></li>
-          <li><img src="images/icons/location-2.png" width="50px"/><span>GrUVi Lab TASC-I Building Room 8004 The School of Computing Science Simon Fraser University Burnaby, BC, Canada V5A</span></li>
-          <li><img src="images/icons/phone-2.png" width="50px"/><span>+86.</span></li>
-        </ul>
+        <div class="pub">
+          <img src="images/pub/gruvi.png"/>
+          <div class="pub-text">
+            <h3>Shape Compaction via Stacking and Folding</h3> 
+            <p>
+              <b>Honghua Li</b><br>
+              <a href="">[SFU PhD Thesis (2015)]</a>
+            </p>
+          </div>
+        </div>
 
-      </div>
-    </section>
-    
-    _______________End of Contact Section_____________________-->
 
-      <footer id="footer-bk">
-        <span class="copyright" >© Copyright 2011 Honghua (Howard) Li</span>
-        <span class="update">Latest update: 2016-01-03</span>
-      </footer>
+        <div class="pub">
+          <img src="images/pub/fold_sig15.jpg"/>
+          <div class="pub-text">
+            <h3>Foldabilizing Furniture</h3> 
+            <p>
+              <b>Honghua Li*</b>,
+              <a href="http://www.math.zju.edu.cn/ruizhenhu/">Ruizhen Hu*</a>, 
+              <a href="http://ialhashim.github.io/index.html">Ibraheem Alhashim</a>, and 
+              <a href="http://www.cs.sfu.ca/~haoz/">Hao Zhang</a>
+               (*joint first authors)
+              <br>
+              <i>ACM Transactions on Graphics</i> (SIGGRAPH 2015), 34(6). 
+              <br>
+              <a href="projects/foldem/index.html">[Project]</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="pub">
+            <img src="images/pub/li_dagstuhl_compaction.png"/>
+            <div class="pub-text">
+                <h3>Shape Compaction</h3> 
+                <p>
+                  <b>Honghua Li</b>, and 
+                  <a href="http://www.cs.sfu.ca/~haoz/">Hao Zhang</a>
+                  <br>
+                  <i>In Perspectives in Shape Analysis</i>, Dagstuhl Seminar,
+                  editors: M. Breu, A. Bruckstein, P. Maragos, and S. Wuhrer.
+                  <br>
+                  <a href="projects/compact-bchp.pdf">[PDF]</a>
+                </p>
+            </div>       
+          </div>
+
+          <div class="pub">
+            <img src="images/pub/pym.jpg"/>
+            <div class="pub-text">
+                <h3>Approximate Pyramidal Shape Decomposition</h3> 
+                <p>
+                  <a href="http://www.math.zju.edu.cn/ruizhenhu/">Ruizhen Hu</a>, 
+                  <b>Honghua Li</b>, 
+                  <a href="http://www.cs.sfu.ca/~haoz/">Hao Zhang</a>, and 
+                  <a href="http://www.cs.tau.ac.il/~dcor/index.html">Daniel Cohen-Or</a>
+                  <br>
+                  <i>ACM Transactions on Graphics</i> (SIGGRAPH Asia 2014), 33(6).
+                  <br>
+                  <a href="http://www.math.zju.edu.cn/ruizhenhu/projects/pym/index.html">[Project]</a>
+                </p>
+            </div>        
+          </div>
+  
+
+          <div class="pub">
+            <img src="images/pub/topoblend.jpg"/>
+            <div class="pub-text">
+                <h3>Topology-Varying 3D Shape Creation via Structural Blending</h3> 
+                <p>
+                  <a href="http://ialhashim.github.io/index.html">Ibraheem Alhashim</a>, 
+                  <b>Honghua Li</b>, 
+                  <a href="http://kevinkaixu.net/">Kai Xu</a>, Junjie Cao, 
+                  <a href="http://www.sfu.ca/~ruim/">Rui Ma</a>, and 
+                  <a href="http://www.cs.sfu.ca/~haoz/">Hao Zhang</a>
+                  <br>
+                  <i>ACM Transactions on Graphics</i> (SIGGRAPH 2014), 33(4).
+                  <br>
+                  <a href="http://gruvi.cs.sfu.ca/project/topo/">[Project]</a>
+                </p>
+            </div>        
+          </div>  
+
+          <div class="pub">
+            <img src="images/pub/hh_cgf12.png"/>
+            <div class="pub-text">
+                <h3>Curve Style Analysis in a Set of Shapes</h3> 
+                <p>
+                  <b>Honghua Li</b>, 
+                  <a href="http://www.cs.sfu.ca/~haoz/">Hao Zhang</a>, Yanzhen Wang, Junjie Cao, Ariel Shamir, and 
+                  <a href="http://www.cs.tau.ac.il/~dcor/index.html">Daniel Cohen-Or</a>
+                  <br>
+                  <i>Computer Graphics Forum</i>, (presented on Eurographics 2014), 32(6), 77-88, 2013.
+                  <br>
+                  <a href="projects/curve_style/index.html">[Project]</a>
+                </p>
+            </div>        
+          </div>
+
+
+          <div class="pub">
+            <img src="images/pub/hh_siga12.png"/>
+            <div class="pub-text">
+                <h3>Stackabilization</h3> 
+                <p>
+                  <b>Honghua Li</b>, 
+                  <a href="http://ialhashim.github.io/index.html">Ibraheem Alhashim</a>, 
+                  <a href="http://www.cs.sfu.ca/~haoz/">Hao Zhang</a>, 
+                  <a href="http://www.faculty.idc.ac.il/arik/site/index.asp">Ariel Shamir</a>, and 
+                  <a href="http://www.cs.tau.ac.il/~dcor/index.html">Daniel Cohen-Or</a>
+                  <br>
+                  <i>ACM Transactions on Graphics</i> (SIGGRAPH Aisa 2012), 31(6).
+                  <br>
+                  <a href="http://honghuali.github.io/projects/stackem/index.html">[Project]</a>
+                </p>
+            </div>        
+          </div>
+
+          <div class="pub">
+            <img src="images/pub/style1.jpg"/>
+            <div class="pub-text">
+                <h3>Style-Content Separation by Anisotropic Part Scales </h3> 
+                <p>
+                  <a href="http://kevinkaixu.net/">Kai Xu</a>, 
+                  <b>Honghua Li</b>, 
+                  <a href="http://www.cs.sfu.ca/~haoz/">Hao Zhang</a>, 
+                  <a href="http://www.cs.tau.ac.il/~dcor/index.html">Daniel Cohen-Or</a>, Yueshan Xiong, and Zhi-Quan Cheng
+                  <br>
+                  <i>ACM Transactions on Graphics</i> (SIGGRAPH Aisa 2010), 29(5).
+                  <br>
+                  <a href="projects/xu_siga10_style.pdf">[PDF]</a>
+                </p>
+            </div>        
+          </div>
+
+          <div class="pub">
+            <img src="images/pub/cheng_smi10.png"/>
+            <div class="pub-text">
+                <h3>Non-rigid Registration in 3D Implicit Vector Space</h3> 
+                <p>Z.-Q. Cheng, W. Jiang, G. Dang, 
+                  <a href="http://ralph.cs.cf.ac.uk/">R. Martin</a>, J. Li, 
+                  <b>H. Li</b>, Y. Chen, Y. Wang, B. Li, 
+                  <a href="http://kevinkaixu.net/">K. Xu</a>, S. Jin
+                  <br>
+                  In: <i>Proc. of Shape Modeling International 2010</i>, Aix-en-Provence, France, 2010.
+                  <br>
+                  <a href="http://kevinkaixu.net/papers/cheng_smi10_registration.pdf">[PDF]</a>
+                </p>
+            </div>        
+          </div>
+
+          <div class="pub">
+            <img src="images/pub/sift_JSS_09.JPG"/>
+            <div class="pub-text">
+                <h3>3D Surface Correspondence based on SIFT Features of Depth Image</h3> 
+                <p><b>Honghua Li</b>, Zhi-Quan Cheng, Jun Li, and Shi-Yao Jin<br>
+                <i>Journal of System Simulation</i>, 2009.</p>
+            </div>        
+          </div>
+
+          <div class="pub">
+            <img src="images/pub/hf_JSS_09.JPG"/>
+            <div class="pub-text">
+                <h3>Mesh Dense Correspondence Computation based on Harmonic Field</h3> 
+                <p><b>Honghua Li</b>, Zhi-Quan Cheng, Jun Li, Shi-Yao Jin<br>
+                <i>Journal of System Simulation</i>, 2009.</p>
+            </div>        
+          </div>
+
 
     </div>
-  </body>
+
+    <!-- insert the footer content here -->
+    <div id="footer">Latest update 2016-06-01 @Honghua Li </div>
+  </div>
+</body>
 </html>
