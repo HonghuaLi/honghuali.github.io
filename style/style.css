@@ -14,101 +14,55 @@ p
 { padding: 0 0 20px 0;
   line-height: 1.7em;}
 
-h1, h2, h3, h4, h5, h6 
-{ color: #362C20;
-  letter-spacing: 0em;
-  padding: 0 0 5px 0;}
-
-h1, h2, h3
-{ font: normal 170% 'century gothic', arial;
-  margin: 0 0 15px 0;
-  padding: 15px 0 5px 0;
-  color: #000;}
-
-h2
-{ font-size: 160%;
-  padding: 9px 0 5px 0;
-  color: #009FBC;}
-
-h3
-{ font-size: 140%;
-  padding: 5px 0 0 0;}
-
-h4, h6
-{ color: #009FBC;
-  padding: 0 0 5px 0;
-  font: normal 110% arial;
-  text-transform: uppercase;}
-
-h5, h6
-{ color: #888;
-  font: normal 95% arial;
-  letter-spacing: normal;
-  padding: 0 0 15px 0;}
-
 a
 { outline: none;
   text-decoration: underline;
   color: #009FFF;}
 
-ul
-{ margin: 2px 0 22px 17px;}
-
-ul li
-{ list-style-type: circle;
-  margin: 0 0 6px 0; 
-  padding: 0 0 4px 5px;
-  line-height: 1.5em;}
-
-ol
-{ margin: 8px 0 22px 20px;}
-
-ol li
-{ margin: 0 0 11px 0;}
-
-#main, #logo, #menubar, #site_content, #footer
-{ margin-left: auto; 
-  margin-right: auto;}
-
-  
-#logo
+#banner
 { width: 100%;
-  height: 240px;
+  padding-bottom: 10px;
   background: #666;
-  overflow: hidden;}
+  float: top;
+  clear: both;
+}
 
 
-#logo img
+#banner:after { 
+   content: " ";
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
+#banner img
 { 
   float: left;
-  height: 220px;  
+  height: 240px;  
   margin-left: 15%;
   margin-top: 10px;
   border-radius: 35px;
   box-shadow: 0px 0px 15px #444;
 }
 
-#logo #logo_text 
-{ position: relative; 
-  top: 10px;
-  left: 5%;
-  width: 80%;
+#banner_text 
+{ position: relative;
+  top: 30px;
+  left: 30px;
 }
 
-#logo h1, #logo h2
+#banner_text h1
 { font: normal 400% 'century gothic', arial, sans-serif;
   border-bottom: 0;
   text-transform: none;
-  margin: 0 0 0 9px;}
+  margin: 0 0 0 9px;
+  color: #FFF;}
 
-#logo_text h1
-{ color: #FFF;}
-
-.logo_colour
+.banner_colour
 { color: #00CED1;}
 
-#logo_text h2
-{ font-size: 150%;
+#banner_text h2
+{ font: normal 150% 'century gothic', arial, sans-serif;
   padding: 4px 0 0 0;
   color: #eee;}
 
@@ -117,6 +71,12 @@ ol li
   overflow: hidden;
   margin: 20px auto 0 auto;
   padding: 0 0 10px 0;} 
+
+#site_content h1
+{ font: normal 170% 'century gothic', arial;
+  margin: 20px 0 20px 0;
+  padding: 15px 0 5px 0;
+  color: #000;}
 
 #footer
 { width: 100%;
@@ -130,18 +90,21 @@ ol li
 
 .pub
 {
-  float: auto;
-  overflow: hidden;
-  height: 180px;
-  vertical-align: center;
-  margin-bottom: 5px;
+  float: top;
+  clear: both;
+  margin-bottom: 20px;
+}
+
+.pub:after { 
+   content: " ";
+   display: block; 
+   height: 0; 
+   clear: both;
 }
 
 .pub img
 {
   float: left;
-  vertical-align: center;
-  height: auto;
   width: 250px;
   height: 140px;
   border:2px solid #00CED1;
@@ -153,4 +116,10 @@ ol li
 {
   position: relative;
   left: 30px;
+}
+
+.pub-text h2
+{ font: normal 120% 'century gothic', arial;
+  margin: 0px 0 15px 0;
+  color: #000;
 }
