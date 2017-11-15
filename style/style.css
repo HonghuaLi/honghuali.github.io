@@ -110,9 +110,10 @@ a
   display: inline-block;
   vertical-align: middle;
   width: 25%;
-  border:2px solid #00CED1;
+  border:1px solid #ccc;
   border-radius: 5%;
   padding: 2%;
+  box-shadow:2px 2px 3px #ccc;
 }
 
 .pub-text
