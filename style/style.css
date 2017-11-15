@@ -17,7 +17,7 @@ p
 
 a
 { outline: none;
-  text-decoration: underline;
+  text-decoration: none;
   color: #009FFF;}
 
 #banner
@@ -125,7 +125,18 @@ a
 }
 
 .pub-text h2
-{ font: normal 120% 'century gothic', arial;
+{ 
+  font: normal 120% 'century gothic', arial;
   padding: 10px 0 10px 0;
   color: #000;
+}
+
+.pub-text h3
+{
+	font: bold 120% 'century gothic', arial;
+}
+
+.pub-text p
+{
+	font: normal 80% 'century gothic', arial;
 }
