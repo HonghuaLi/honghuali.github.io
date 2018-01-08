@@ -9,13 +9,13 @@ p
 a
 { outline: none;
   text-decoration: none;
-  color: #009FFF;}
+  color: #00CED1;}
 
 #banner
 { 
   display: block;
   width: 100%;
-  background: #666;
+  background: #444;
   padding: 10px 0 10px 0;
 }
 
@@ -26,15 +26,6 @@ a
   min-width: 500px;
   max-width: 800px;
   margin: 0 auto;
-}
-
-#banner_content img
-{ 
-  display: inline-block;
-  vertical-align: middle;
-  width: 150px;
-  border-radius: 5%;
-  box-shadow: 0px 0px 15px #444;
 }
 
 #banner_text 
@@ -51,20 +42,26 @@ a
   border-bottom: 0;
   text-transform: none;
   margin: 0 0 0 9px;
-  color: #FFF;}
-
-.banner_colour
-{ color: #00CED1;}
+  color: #00CED1;}
 
 #banner_text h2
 { font: normal 150% 'century gothic', arial, sans-serif;
   padding: 4px 0 0 0;
-  color: #eee;}
+  color: #00CED1;}
   
 #banner_text h3
 { font: normal 100% 'century gothic', arial, sans-serif;
   padding: 4px 0 0 0;
   color: #eee;}
+  
+#banner_content img
+{ 
+  display: inline-block;
+  vertical-align: middle;
+  width: 150px;
+  border-radius: 2%;
+  box-shadow: 0px 0px 15px #444;
+}
 
 #content
 { 
@@ -106,29 +103,27 @@ a
   vertical-align: middle;
   width: 25%;
   border:1px solid #ccc;
-  border-radius: 5%;
-  padding: 2%;
+  padding: 1%;
   box-shadow:2px 2px 3px #ccc;
+  margin-right:2%;
 }
 
 .pub-text
 {
   display: inline-block;
   vertical-align: middle;
-  width: 60%;
-  margin-left: 3%;
+  width: 70%;
 }
 
 .pub-text h2
 { 
-  font: normal 120% 'century gothic', arial;
-  padding: 10px 0 10px 0;
+  font: normal 100% 'century gothic', arial;
   color: #000;
 }
 
 .pub-text h3
 {
-	font: bold 120% 'century gothic', arial;
+	font: bold 100% 'century gothic', arial;
 }
 
 .pub-text p
